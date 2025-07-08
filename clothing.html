@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clothing | E-COMMERCE WEBSITE BY EDYODA</title>
+    <link rel="stylesheet" href="css/content.css">
+    <!-- favicon -->
+    <link rel="icon" href="https://yt3.ggpht.com/a/AGF-l78km1YyNXmF0r3-0CycCA0HLA_i6zYn_8NZEg=s900-c-k-c0xffffffff-no-rj-mo" type="image/gif" sizes="16x16">
+    <!-- header links -->
+    <script src="https://kit.fontawesome.com/4a3b1f73a2.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/clothing.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <div id="header"></div>
+    <script>
+        function loadHeader() {
+            const req = new XMLHttpRequest();
+            req.open("GET", "header.html", false);
+            req.send(null);
+            document.getElementById("header").innerHTML = req.responseText;
+        }
+        loadHeader();
+    </script>
+
+    <!-- HERO SECTION -->
+    <section class="hero-section" style="background: linear-gradient(rgba(30,136,229,0.7), rgba(21,101,192,0.7)), url('https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat; padding: 60px 0; color: #fff; text-align: center;">
+        <h1 style="font-size: 3rem; font-weight: 700; margin-bottom: 10px; letter-spacing: 2px;">Clothing for Men and Women</h1>
+        <p style="font-size: 1.3rem; font-weight: 400; max-width: 600px; margin: 0 auto;">Discover the latest trends in fashion. Shop stylish, comfortable, and affordable clothing for every occasion.</p>
+    </section>
+
+    <!-- CLOTHING GRID -->
+    <div class="container">
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://imgs.search.brave.com/sQkiwI0VOBvltos5VvRt-Q9IicBi2Pj2VBXORpJnF-A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFaYzBqa3RUeEwu/anBn" alt="Men's Blue Denim Shirt">
+                <h3>Men's Blue Denim Shirt<br><span style='font-size:14px;font-weight:400;color:#888;'>Levi's</span></h3>
+                <div class="price">Rs 1299</div>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://imgs.search.brave.com/28tESGC7n69SMNcxNtoPymt7LQ1BheH7PCvA_nu5dsw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NzFDR0lwOTBwYkwu/anBn" alt="Women's Floral Print Dress">
+                <h3>Women's Floral Print Dress<br><span style='font-size:14px;font-weight:400;color:#888;'>ONLY</span></h3>
+                <div class="price">Rs 1799</div>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://imgs.search.brave.com/pKDSfiEXU673sItnJwlgsoAz0FMHcf5UZXkNk3VFRIY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzg0LzM2/L2UyLzg0MzZlMmU3/YmU5N2M4YWZmODll/ODczMTZkMDQzMjMw/LmpwZw" alt="Men's Slim Fit Trousers">
+                <h3>Men's Slim Fit Trousers<br><span style='font-size:14px;font-weight:400;color:#888;'>Allen Solly</span></h3>
+                <div class="price">Rs 1599</div>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://imgs.search.brave.com/Bj3nRNTWO_YDKoQmEbUWp7rhW2OEdAEU0-MBtAj4Jgs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2hvd3BvLmNv/bS9kdy9pbWFnZS92/Mi9CRFBRX1BSRC9v/bi9kZW1hbmR3YXJl/LnN0YXRpYy8tL1Np/dGVzLXNwLW1hc3Rl/ci1jYXRhbG9nL2Rl/ZmF1bHQvZHc0OTZk/NTIzOS9pbWFnZXMv/ZGVtaS10b3Atb2Zm/LXNob3VsZGVyLXNo/b3J0LXNsZWV2ZS10/b3AtU1QyNDA3MDAy/NS9EZW1pX1RvcF8t/X09mZl9TaG91bGRl/cl9TaG9ydF9TbGVl/dmVfVG9wX2luX1do/aXRlXzAwMDYuanBn/P3N3PTIwNyZzaD0z/MzYmc3RyaXA9ZmFs/c2U" alt="Women's Casual White Top">
+                <h3>Women's Casual White Top<br><span style='font-size:14px;font-weight:400;color:#888;'>Zara</span></h3>
+                <div class="price">Rs 999</div>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://imgs.search.brave.com/T0QBYRxtEa_w4IpeEmmdUZp5ZCwWwn8eEsFJv1YItpc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9mcmVz/aGNsZWFudGVlcy5j/b20vY2RuL3Nob3Av/ZmlsZXMvMTBlOGJm/MDdlMjk4MjBlMWRh/MjM1MzBjMzk3N2Uy/YTdlMDk0MTFjYS0x/NTAweDIwMDBfM2Iz/NWQyMTktNjU5NC00/YjU4LWE2ZjEtM2Qz/OWY5MGNjYmU3Xzcz/N3g5ODAuanBnP3Y9/MTcwNzQzNTgzNw" alt="Men's Black Hoodie">
+                <h3>Men's Black Hoodie<br><span style='font-size:14px;font-weight:400;color:#888;'>Puma</span></h3>
+                <div class="price">Rs 1499</div>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://imgs.search.brave.com/sZxfJ2nzv65K7QgjL6YN4IPvSUuZPmd1szJryJCRY-A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/bWFuZGNvLmNvbS9J/bWFnZXMvUHJvZHVj/dEltYWdlcy9CaWcv/MGU1NjNhNWEtMTEy/MS00MV81MDE2ODlf/TDMtLTUwMTc2N19M/Mi5qcGc" alt="Women's Blue Jeans">
+                <h3>Women's Blue Jeans<br><span style='font-size:14px;font-weight:400;color:#888;'>Levi's</span></h3>
+                <div class="price">Rs 1399</div>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://imgs.search.brave.com/NCTyJbeFBiBKE4GAfp4wVvHe7HpXDuZcRKuOkhlo5Dk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc2hh/bmRlcmllLmNvbS9j/ZG4vc2hvcC9maWxl/cy9zaG9ydC1zbGVl/dmUtdGVlLXdoaXRl/LWNyZXctbmVjay10/ZWUtNDMxMzI1MTk0/NDg4NzQuanBnP3Y9/MTY5ODM3Nzg0MSZ3/aWR0aD0xMDgw" alt="Men's White T-Shirt">
+                <h3>Men's White T-Shirt<br><span style='font-size:14px;font-weight:400;color:#888;'>H&M</span></h3>
+                <div class="price">Rs 799</div>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://imgs.search.brave.com/t2XPvFWjuQ3AfEliFbUNR3hYLLGCB850P7XB5yJFvbw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS9zZW8vTWFk/ZS1ieS1Kb2hubnkt/V29tZW4tcy1IaWdo/LUVsYXN0aWMtV2Fp/c3QtUGxlYXRlZC1N/aWQtQS1MaW5lLVN3/aW5nLVNraXJ0LU0t/UkVEXzdjNjEzNDc3/LTMyM2UtNDJiZS04/MzdlLTUxYWVjZjIw/M2ZhYS42NzQ2MGE3/NzE2ZmZhNTk0NjIz/YjdiYWJjNzZjODE5/ZS5qcGVnP29kbkhl/aWdodD01ODAmb2Ru/V2lkdGg9NTgwJm9k/bkJnPUZGRkZGRg" alt="Women's Red Skirt">
+                <h3>Women's Red Skirt<br><span style='font-size:14px;font-weight:400;color:#888;'>Mango</span></h3>
+                <div class="price">Rs 1199</div>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://imgs.search.brave.com/ZQnukCahIeAAJqBAK3kHR1DSY8aCq4O24qkbnmyxg7w/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zcHlr/YXIuY29tL2Nkbi9z/aG9wL3Byb2R1Y3Rz/L01TSENTMUJEMTQ2/QkxBQ0tfMS5qcGc_/dj0xNzQ4NTI0NDYz" alt="Men's Checked Shirt">
+                <h3>Men's Checked Shirt<br><span style='font-size:14px;font-weight:400;color:#888;'>Roadster</span></h3>
+                <div class="price">Rs 1099</div>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://imgs.search.brave.com/bFRwoH03b2EKB48z14nHQtE30sCXSJ5yyXZxwrLLwo4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NDFlZDJxR0hUdEwu/anBn" alt="Women's Black Leggings">
+                <h3>Women's Black Leggings<br><span style='font-size:14px;font-weight:400;color:#888;'>Forever 21</span></h3>
+                <div class="price">Rs 699</div>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://imgs.search.brave.com/vyEDuGIB5B83hlZ3wExMkx7-3QzWkIslmjU1d8ORm7c/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzU0Lzc4/LzM1LzU0NzgzNTE0/NGJiYmQzYzc2MTY4/ZjM3NzMzM2E1NWYw/LmpwZw" alt="Men's Grey Sweatpants">
+                <h3>Men's Grey Sweatpants<br><span style='font-size:14px;font-weight:400;color:#888;'>Adidas</span></h3>
+                <div class="price">Rs 1199</div>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://imgs.search.brave.com/XKO5_zmiqWmfzWMzBuBb8_f5fMUScy4e-3zHp98uaZU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly94Y2Ru/Lm5leHQuY28udWsv/Q29tbW9uL0l0ZW1z/L0RlZmF1bHQvRGVm/YXVsdC9JdGVtSW1h/Z2VzLzNfNFJhdGlv/L1NlYXJjaElOVC9M/Z2UvQVc0MDkwLmpw/Zz9pbT1SZXNpemUs/d2lkdGg9NDUw" alt="Women's Yellow Summer Dress">
+                <h3>Women's Yellow Summer Dress<br><span style='font-size:14px;font-weight:400;color:#888;'>Vero Moda</span></h3>
+                <div class="price">Rs 1599</div>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://imgs.search.brave.com/OILQb1wQsYcQX0zj6uC8GSAsuU9foHQb6SCeQLsYK-4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/d2Vzc2kuY29tL2Nk/bi9zaG9wL3Byb2R1/Y3RzL3BsYWlkLXdv/b2wtbmF2eS1ibHVl/LW1lbi1ibGF6ZXIt/NDY4NzkyLTIyLUIu/anBnP3Y9MTcyNjI0/NDkzNiZ3aWR0aD0z/NjA" alt="Men's Navy Blazer">
+                <h3>Men's Navy Blazer<br><span style='font-size:14px;font-weight:400;color:#888;'>Arrow</span></h3>
+                <div class="price">Rs 2999</div>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://imgs.search.brave.com/gbADmR8Gl9YFooQAFugMuDBH7-iIiLHWpbPoQDd2zzk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLmV0/c3lzdGF0aWMuY29t/LzEwNjAzMzYxL3Iv/aWwvNWJhMmQyLzk0/MTU1MDQ0MC9pbF82/MDB4NjAwLjk0MTU1/MDQ0MF9sdWZyLmpw/Zw" alt="Women's Green Cardigan">
+                <h3>Women's Green Cardigan<br><span style='font-size:14px;font-weight:400;color:#888;'>ONLY</span></h3>
+                <div class="price">Rs 1299</div>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://imgs.search.brave.com/hEyIQ0S7m4tTBmq-VWqAPLWfeTD__fH9Tcl1Pja6ny0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/YXJjYW5lZm94LmNv/bS9jZG4vc2hvcC9m/aWxlcy9wcmVtaXVt/LW1lbnMtZGlzdHJl/c3NlZC10cnVja2Vy/LWxlYXRoZXItamFj/a2V0LWluLWRhcmst/YnJvd24tYXJjYW5l/LWZveC5qcGc_dj0x/NzA0ODgxOTA1Jndp/ZHRoPTUzMw" alt="Men's Brown Leather Jacket">
+                <h3>Men's Brown Leather Jacket<br><span style='font-size:14px;font-weight:400;color:#888;'>Woodland</span></h3>
+                <div class="price">Rs 3999</div>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://imgs.search.brave.com/WxThpI2hjvY0mDYWEAY-5hAd4Pr9PcOhSyfB5wr6ZRk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS52ZXJ5LmNvLnVr/L2kvdmVyeS9XRjYx/WV9TUTFfMDAwMDAw/MDA2M19QSU5LX01E/Zj9mbXQ9YXV0bw" alt="Women's Pink Hoodie">
+                <h3>Women's Pink Hoodie<br><span style='font-size:14px;font-weight:400;color:#888;'>Puma</span></h3>
+                <div class="price">Rs 1499</div>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://imgs.search.brave.com/RUjezLvmffV1t1EKYxGG-w1UJwQH1puAiGL-ZR99mo0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzg1Lzdh/L2ZmLzg1N2FmZjBk/MjgyOThjNzJlOGQy/ZTJhY2U3ZjFkOTc2/LmpwZw" alt="Men's Olive Cargo Pants">
+                <h3>Men's Olive Cargo Pants<br><span style='font-size:14px;font-weight:400;color:#888;'>U.S. Polo</span></h3>
+                <div class="price">Rs 1699</div>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://imgs.search.brave.com/lXxn5THDqZ_UluaY7ku_2Web3c7il7cOu9ND-GakAUc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NzFLV0E1TGJSd0wu/anBn" alt="Women's White Blouse">
+                <h3>Women's White Blouse<br><span style='font-size:14px;font-weight:400;color:#888;'>Zara</span></h3>
+                <div class="price">Rs 1099</div>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://imgs.search.brave.com/kUvfyOoyxpYJK_n_9bWGRVCzBSGUfjMXVyTapWINqUE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cHN5Y2hvYnVubnku/Y29tL2Nkbi9zaG9w/L2ZpbGVzL0I2SzAw/MUFSUEMtQlJJMl81/LndlYnA_dj0xNzM2/MjgxNzQy" alt="Men's Red Polo Shirt">
+                <h3>Men's Red Polo Shirt<br><span style='font-size:14px;font-weight:400;color:#888;'>UCB</span></h3>
+                <div class="price">Rs 899</div>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://imgs.search.brave.com/OC3IBKsZA65aCVUwnZxd98vr8_UzX7EA5P_jTjZTOSg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly94Y2Ru/Lm5leHQuY28udWsv/Q29tbW9uL0l0ZW1z/L0RlZmF1bHQvRGVm/YXVsdC9JdGVtSW1h/Z2VzLzNfNFJhdGlv/L1NlYXJjaC9MZ2Uv/NTM3MzM1LmpwZz9p/bT1SZXNpemUsd2lk/dGg9NDUw" alt="Women's Black Jacket">
+                <h3>Women's Black Jacket<br><span style='font-size:14px;font-weight:400;color:#888;'>ONLY</span></h3>
+                <div class="price">Rs 1999</div>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer"></div>
+    <script>
+        function loadFooter() {
+            const req = new XMLHttpRequest();
+            req.open("GET", "footer.html", false);
+            req.send(null);
+            document.getElementById("footer").innerHTML = req.responseText;
+        }
+        loadFooter();
+    </script>
+    <script src="content.js"></script>
+    <script>
+        // Add to Cart functionality for clothing page
+        document.querySelectorAll('.add-to-cart-btn').forEach(function(btn) {
+            btn.addEventListener('click', function() {
+                var card = btn.closest('.product-card');
+                var name = card.querySelector('h3').childNodes[0].textContent.trim();
+                var brand = card.querySelector('span').textContent.trim();
+                var price = card.querySelector('.price').textContent.replace('Rs', '').trim();
+                var img = card.querySelector('img').src;
+                // Example: call a function to add to cart (implement in cart.js or similar)
+                if (typeof addToCart === 'function') {
+                    addToCart({ name, brand, price, img });
+                } else {
+                    alert('Added to cart: ' + name + ' (' + brand + ') - Rs ' + price);
+                }
+            });
+        });
+    </script>
+</body>
+</html> 
